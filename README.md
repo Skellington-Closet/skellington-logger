@@ -1,5 +1,5 @@
 # skellington-logger
-A generic logger for Skellington and its plugins.
+A generic logger for [Skellington](https://github.com/colestrode/skellington) and its plugins.
 
 ## About
 
@@ -34,7 +34,7 @@ Logging metadata:
 ```
 logger.info('This is a very interesting object.', {walter: 'white', jesse: 'pinkman'})
 ...
-my-plugin INFO 2016-12-20T15:58:37.661Z Very interesting.
+my-plugin INFO 2016-12-20T15:58:37.661Z This is a very interesting object.
 {
   "walter": "white",
   "jesse": "pinkman"
