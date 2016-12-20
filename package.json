@@ -1,0 +1,29 @@
+{
+  "name": "skellington-logger",
+  "version": "1.0.0",
+  "description": "A logger for Skellington and its plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard index.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colestrode/skellington-logger.git"
+  },
+  "keywords": [
+    "skellington",
+    "logger"
+  ],
+  "author": "Cole Furfaro-Strode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colestrode/skellington-logger/issues"
+  },
+  "homepage": "https://github.com/colestrode/skellington-logger#readme",
+  "dependencies": {
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
