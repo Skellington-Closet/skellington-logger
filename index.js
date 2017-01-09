@@ -39,5 +39,5 @@ function defaultFormatter (name, options) {
     }
   }
 
-  return `${name} ${options.level.toUpperCase()} ${now} ${message}`
+  return `${options.level.toUpperCase()} ${now} ${name} ${message}`
 }

@@ -26,7 +26,7 @@ to identify which plugin logged the message.
 The default formatting is:
 
 ```
-<name> <LEVEL> <date> <message>
+<LEVEL> <date> <name> <message>
 <Stack trace OR meta object>
 ```
 
@@ -34,7 +34,7 @@ Logging metadata:
 ```
 logger.info('This is a very interesting object.', {walter: 'white', jesse: 'pinkman'})
 ...
-my-plugin INFO 2016-12-20T15:58:37.661Z This is a very interesting object.
+NFO 2016-12-20T15:58:37.661Z my-plugin This is a very interesting object.
 {
   "walter": "white",
   "jesse": "pinkman"
@@ -46,7 +46,7 @@ Logging a Stack trace:
 ```
 logger.error('Oh nos! An errrrr!', new Error(`Here's an error.`))
 ...
-my-plugin ERROR 2016-12-20T15:58:37.656Z Oh no!
+ERROR 2016-12-20T15:58:37.656Z my-plugin Oh no!
 Error: Here's an error.
     at Object.<anonymous> (/Users/cfurfarostrode/src/personal/skellington-logger/test.js:4:24)
     at Module._compile (module.js:570:32)
