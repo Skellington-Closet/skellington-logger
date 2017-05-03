@@ -1,4 +1,6 @@
 # skellington-logger
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Skellington-Closet/skellington-logger.svg)](https://greenkeeper.io/)
 A generic logger for [Skellington](https://github.com/colestrode/skellington) and its plugins.
 
 ## About
